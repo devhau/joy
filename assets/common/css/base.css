@@ -1,0 +1,280 @@
+.text-center {
+    text-align: center;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-bold{
+    font-weight: bold;
+}
+.show {
+    display: block !important;
+}
+
+.h-25 {
+    height: 25% !important;
+}
+
+.h-50 {
+    height: 50% !important;
+}
+
+.h-75 {
+    height: 75% !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.w-25 {
+    width: 25% !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.w-75 {
+    width: 75% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.rate {
+    font-size: 20px;
+}
+
+.rate .rate-active::before {
+    content: "★";
+    position: absolute;
+    color: rgb(255, 150, 0);
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-sm {
+    min-height: calc(1.5em + (.5rem + 2px));
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+}
+
+.form-control-lg {
+    min-height: calc(1.5em + (1rem + 2px));
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.box {
+    background: #fff;
+    border-radius: 3px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.btn {
+    color: #fff;
+    border-radius: 3px;
+    line-height: 30px;
+    padding: 3px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #ccc;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-sm {
+    line-height: 20px;
+    padding: 3px 10px;
+}
+
+.btn:hover,
+.btn:focus {
+    -moz-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 1px 7px 0 rgb(0 0 0 / 35%);
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 35%);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-info {
+    color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+}
+
+.btn-light {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.paging {
+    display: flex;
+    flex-direction: row;
+}
+
+.paging ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.paging span {
+    text-align: center;
+    line-height: 100%;
+    font-weight: 700;
+    margin: 5px;
+    padding: 5px 5px;
+}
+
+.paging ul li {
+    display: block;
+    margin-left: 3px;
+}
+
+.paging ul li a {
+    display: block;
+    background: #efefef;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.paging ul li a:hover,
+.paging ul li a.active {
+    background: #80bdff;
+}
+
+table {
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+.table {
+    background: #fff;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+.table>:not(caption)>*>* {
+    padding: .5rem .5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: currentColor;
+}
+
+.table-bordered>:not(caption)>* {
+    border-width: 1px 0;
+}
